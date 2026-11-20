@@ -2,7 +2,7 @@
 
 Escuela ITS2026 · Sesión 3 · 1 de diciembre de 2026
 
-Ejercicio en Google Colab que usa la cuenca del río Bogotá como caso común para revisar la disponibilidad, la representatividad y el alcance de los datos de las propuestas de investigación. Combina estaciones del IDEAM, productos satelitales y de reanálisis (CHIRPS, ERA5-Land, JRC, Sentinel-2) y el marco de riesgo del IPCC AR6.
+Ejercicio en Google Colab que usa la cuenca del río Bogotá como caso común para revisar qué datos hay, si representan bien el lugar y qué se puede hacer con ellos en las propuestas de investigación. Combina estaciones del IDEAM, datos de satélite y de reanálisis (CHIRPS, ERA5-Land, JRC, Sentinel-2) y el marco de riesgo del IPCC AR6.
 
 Es un solo ejercicio, organizado en secciones: cada grupo lo ejecuta, usa lo que necesita según su propuesta (con sus propios datos, si los tiene) y construye sus propios hallazgos.
 
@@ -51,11 +51,11 @@ Para usar datos propios, súbalos también a la sesión: las series de DHIME de 
 |---|---|
 | 0 · Configuración | Parámetros, datos del taller y conexión con Earth Engine |
 | 1 · Cuenca | Mapa interactivo con subcuencas, relieve y embalses |
-| 2 · Inventario IDEAM | Tabla y mapa de completitud 1991–2020 |
-| 3 · Precipitación y temperatura | Estación vs. CHIRPS y ERA5-Land; gradiente en °C/km |
+| 2 · Inventario IDEAM | Tabla y mapa de cuántos datos tiene cada estación en 1991–2020 |
+| 3 · Precipitación y temperatura | Estación vs. CHIRPS y ERA5-Land; cambio de la temperatura con la altura (°C por km) |
 | 4 · Variabilidad (ENOS) | Anomalías por fase; señal en estaciones vs. CHIRPS |
-| 5 · Extremos y tendencias | Índices ETCCDI, Mann-Kendall, pendiente de Sen |
-| 6 · Cuerpos de agua centinela | Área de Tominé, Neusa, Sisga y Guatavita (1984–hoy) |
+| 5 · Extremos y tendencias | Índices de lluvia extrema y prueba de tendencia (Mann-Kendall, pendiente de Sen) |
+| 6 · Embalses y lagunas | Área de Tominé, Neusa, Sisga y Guatavita (1984–hoy) |
 | 7 · Índice de riesgo mínimo | Riesgo relativo por subcuenca (peligro, exposición, vulnerabilidad) |
 | 8 · Su propuesta | El grupo decide qué partes del notebook usa, qué cambia y qué datos propios agrega |
 | 9 · Hallazgos | Tabla de hallazgos, figura propia, lámina, matriz de alcance, nota y lista de ajustes, construidos por el grupo |
