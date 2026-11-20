@@ -1,0 +1,10 @@
+# Los datos se comparten por Drive, no por el repositorio
+Escuela-ITS2026_datos*/
+datos_ideam/
+*.zip
+*.csv
+
+# Resultados y temporales de Colab/Jupyter
+Escuela-ITS2026_resultados/
+.ipynb_checkpoints/
+__pycache__/
