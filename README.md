@@ -43,6 +43,8 @@ Si a una estación le falta su serie de DHIME, el notebook usa CHIRPS en esa ubi
 
 Las series se descargaron de [DHIME](http://dhime.ideam.gov.co/atencionciudadano/). Sus términos autorizan el uso personal y no comercial y no permiten redistribuirlas sin permiso escrito del IDEAM. Por eso no están en este repositorio: se comparten solo con los participantes del curso, para uso académico y citando al IDEAM.
 
+**Respaldo satelital:** en la misma carpeta de Drive está `Escuela-ITS2026_datos_respaldo_satelital.zip`, con las series ya extraídas de Earth Engine (CHIRPS, ERA5-Land, área de los embalses e indicadores por subcuenca). Si Earth Engine está lento o falla, súbalo junto con el zip de datos: las secciones 3 a 7 usan esas series y no las vuelven a pedir.
+
 Para usar datos propios, súbalos también a la sesión: las series de DHIME de otras estaciones de la cuenca entran solas como puntos de análisis, y un archivo `vulnerabilidad_subcuencas.csv` (columnas `subcuenca` y `valor`) reemplaza el indicador de vulnerabilidad con `VULNERABILIDAD = "archivo"`. La sección 8 del notebook explica los formatos.
 
 ## Secciones del ejercicio
@@ -53,8 +55,8 @@ Para usar datos propios, súbalos también a la sesión: las series de DHIME de 
 | 1 · Cuenca | Mapa interactivo con subcuencas, relieve y embalses |
 | 2 · Inventario IDEAM | Tabla y mapa de cuántos datos tiene cada estación en 1991–2020 |
 | 3 · Precipitación y temperatura | Estación vs. CHIRPS y ERA5-Land; cambio de la temperatura con la altura (°C por km) |
-| 4 · Variabilidad (ENOS) | Anomalías por fase; señal en estaciones vs. CHIRPS |
-| 5 · Extremos y tendencias | Índices de lluvia extrema y prueba de tendencia (Mann-Kendall, pendiente de Sen) |
+| 4 · Variabilidad (ENOS) | Lluvia trimestral alineada con el ONI, anomalía (%) e índice estandarizado IPE-3 por fase, prueba de Mann-Whitney y retraso de la señal; estaciones vs. CHIRPS |
+| 5 · Extremos y tendencias | Los 27 índices ETCCDI (11 de lluvia, 16 de temperatura con ERA5-Land) y prueba de tendencia (Mann-Kendall, pendiente de Sen) |
 | 6 · Embalses y lagunas | Área de Tominé, Neusa, Sisga y Guatavita (1984–hoy) |
 | 7 · Índice de riesgo mínimo | Riesgo relativo por subcuenca (peligro, exposición, vulnerabilidad) |
 | 8 · Su propuesta | El grupo decide qué partes del notebook usa, qué cambia y qué datos propios agrega |
